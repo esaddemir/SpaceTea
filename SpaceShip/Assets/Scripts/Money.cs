@@ -19,7 +19,8 @@ public class Money : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        coinCounter.text = "Coins: " + moneyAmount.ToString();
+        //Skor Gozukuyor
+        coinCounter.text = "Skor: " + moneyAmount.ToString();
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
