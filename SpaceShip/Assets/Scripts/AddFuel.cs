@@ -10,6 +10,8 @@ public class AddFuel : MonoBehaviour
     {
         if(collision.name.Equals("Spaceship"))
         {
+            // yakıt 100 olarak baslıyor
+
             SpaceShip.fuelAmount = 100;
             
             teaObject.position = new Vector2(teaObject.position.x, teaObject.position.y + 20f);

@@ -28,7 +28,8 @@ public class SpaceShip : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        fuelMeter.text = "Fuel: " + fuelAmount.ToString() + "%";
+        //Yakıt artıyor
+        fuelMeter.text = "Yakıt: " + fuelAmount.ToString() + "%";
         if (fuelAmount == 0)
         {
             engineIsOn = false;
